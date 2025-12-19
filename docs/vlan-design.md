@@ -52,7 +52,7 @@ Wireless SSIDs are directly mapped to VLANs using bridge VLAN filtering.
 | SSID         | VLAN ID | Type            |
 |--------------|--------:|-----------------|
 | WLAN-ADMIN   | 10      | Secure (WPA2)   |
-| WLAN-OFFICE  | 20      | Secure (WPA2)   |
+| WLAN-STAFF   | 20      | Secure (WPA2)   |
 | WLAN-GUEST   | 30      | Open            |
 
 ---
@@ -61,7 +61,7 @@ Wireless SSIDs are directly mapped to VLANs using bridge VLAN filtering.
 
 Inter-VLAN routing policies are defined as follows:
 - **ADMIN VLAN** → Full network access
-- **OFFICE VLAN** → Internet access and internal services
+- **STAFF VLAN** → Internet access and internal services
 - **GUEST VLAN** → Internet access only
 
 Routing control is enforced using firewall filter rules on the core router.

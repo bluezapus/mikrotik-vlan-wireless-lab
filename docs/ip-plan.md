@@ -22,7 +22,7 @@ The default gateway for each VLAN is assigned on the **MikroTik-RTR** using Laye
 | Device          | Interface      | IP Address        |
 |-----------------|----------------|-------------------|
 | MikroTik-RTR-01 | VLAN10-ADMIN   | 192.168.10.1/24  |
-| MikroTik-RTR-01 | VLAN20-OFFICE  | 192.168.20.1/24  |
+| MikroTik-RTR-01 | VLAN20-STAFF   | 192.168.20.1/24  |
 | MikroTik-RTR-01 | VLAN30-GUEST   | 192.168.30.1/24  |
 
 ---

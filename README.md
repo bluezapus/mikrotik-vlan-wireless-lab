@@ -43,7 +43,7 @@ Network segmentation is implemented using VLANs to separate functions and enhanc
 | VLAN ID | VLAN Name | Purpose        | Subnet            |
 |--------:|-----------|----------------|-------------------|
 | 10      | ADMIN     | Administrators | 192.168.10.0/24   |
-| 20      | OFFICE    | Employees      | 192.168.20.0/24   |
+| 20      | STAFF     | Employees      | 192.168.20.0/24   |
 | 30      | GUEST     | Guests         | 192.168.30.0/24   |
 
 Each VLAN includes:
@@ -57,7 +57,7 @@ Each wireless SSID is directly mapped to a specific VLAN.
 | SSID         | VLAN    | Security |
 |--------------|---------|----------|
 | WLAN-ADMIN   | VLAN 10 | WPA2     |
-| WLAN-OFFICE  | VLAN 20 | WPA2     |
+| WLAN-STAFF   | VLAN 20 | WPA2     |
 | WLAN-GUEST   | VLAN 30 | Open     |
 
 The access point operates purely as a Layer 2 bridge, while all network control and policy enforcement are handled by the **MikroTik-RTR**.
